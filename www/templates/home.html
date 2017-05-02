@@ -1,0 +1,80 @@
+<ion-view view-title="EventShow">
+    <<ion-content>
+        <!-- Carousel For Top Event -->
+        <div class="row">
+            <div class="col">
+                
+            </div>
+        </div>
+
+        <!-- Recap Event For Professional Category -->
+        <div class="row blue-recap-pal">
+            <div class="col center">
+                    <h4>Professionnels</h4>
+                    <span class="subtitle-caption">Lorem ipsum dolor sit amet, consectetur.</span>
+            </div>
+        </div>
+        <div class="row blue-recap">
+            <div class="col">
+                <ks-swiper-container initial-slide="1" speed="2000" loop="false" show-nav-buttons="false" slides-per-view="3" space-between="0" pagination-clickable="true"  on-ready="onReadySwiper(swiper)">
+                      <ks-swiper-slide class="swiper-slide eventRecapShow" ng-repeat="s in [1,2,3,4,5,6,7,8]" style="width: 165.333px">
+                          <div class="card">
+                              <div class="item item-image">
+                                  <img ng-src="img/puppy-{{s}}.jpg" class="full-image" width="100%">
+                              </div>
+                              <div class="item item-body">
+                                  Lorem..
+                              </div>
+                          </div>
+                      </ks-swiper-slide>
+                </ks-swiper-container>
+            </div>
+        </div>
+        <!-- Recap Event For Education Category -->
+        <div class="row green-recap-pal">
+            <div class="col center">
+                    <h4>Educatifs</h4>
+                    <span class="subtitle-caption">Lorem ipsum dolor sit amet, consectetur.</span>
+            </div>
+        </div>
+        <div class="row green-recap">
+            <div class="col">
+                <ks-swiper-container initial-slide="1" speed="2000" loop="false" show-nav-buttons="false" slides-per-view="3" space-between="0" pagination-clickable="true"  on-ready="onReadySwiper(swiper)">
+                      <ks-swiper-slide class="swiper-slide eventRecapShow" ng-repeat="s in [1,2,3,4,5,6,7,8]">
+                          <div class="card">
+                              <div class="item item-image">
+                                  <img ng-src="img/puppy-{{s}}.jpg" class="full-image" width="100%">
+                              </div>
+                              <div class="item item-body">
+                                  Lorem..
+                              </div>
+                          </div>
+                      </ks-swiper-slide>
+                </ks-swiper-container>
+            </div>
+        </div>
+        <!-- Recap Event For Formation Category -->
+        <div class="row red-recap-pal">
+            <div class="col center">
+                    <h4>Formations</h4>
+                    <span class="subtitle-caption">Lorem ipsum dolor sit amet, consectetur.</span>
+            </div>
+        </div>
+        <div class="row red-recap">
+            <div class="col">
+                <ks-swiper-container initial-slide="1" speed="2000" loop="false" show-nav-buttons="false" slides-per-view="3" space-between="0" pagination-clickable="true"  on-ready="onReadySwiper(swiper)">
+                      <ks-swiper-slide class="swiper-slide eventRecapShow" ng-repeat="s in [1,2,3,4,5,6,7,8]">
+                          <div class="card">
+                              <div class="item item-image">
+                                  <img ng-src="img/puppy-{{s}}.jpg" class="full-image" width="100%">
+                              </div>
+                              <div class="item item-body">
+                                  Lorem..
+                              </div>
+                          </div>
+                      </ks-swiper-slide>
+                </ks-swiper-container>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

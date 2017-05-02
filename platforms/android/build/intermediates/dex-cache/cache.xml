@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/sphinxeclipse/Projets/Ionic/EventShow/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7ec382ac488591a3bcce184afd93326b12628dc">
+        <dex dex="/home/sphinxeclipse/Projets/Ionic/EventShow/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-unspecified-debug_2e0fc1ef99fb4b24f89af1ce7e3070a51f0d9c41.jar" />
+    </item>
+
+</items>

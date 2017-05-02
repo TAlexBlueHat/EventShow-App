@@ -1,0 +1,116 @@
+/* Empty. Add your own CSS if you like */
+.avatar{
+    display: block;
+    width: 40%;
+    float: left;
+}
+.user-info{
+    display: block;
+    width: 60%;
+    float: right;
+    position: relative;
+}
+
+.user-info-name{
+    display: block;
+    position: absolute;
+    top: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #222;
+}
+
+/* Home CSS*/
+.eventRecapShow{
+    width: 250px;
+}
+.center{
+    text-align: center;
+}
+.subtitle-caption{
+    font-size: 12px;
+    color: rgba(140, 140, 140, 0.8);
+    font-style: italic;
+}
+.blue-recap-pal{
+    background-color: rgba(2, 59, 130, 0.04);
+}
+.blue-recap{
+    background-color: rgba(2, 59, 130, 0.65);
+}
+.green-recap-pal{
+    background-color: rgba(2, 130, 112, 0.04);
+}
+.green-recap{
+    background-color: rgba(2, 130, 112, 0.65);
+}
+.red-recap-pal{
+    background-color: rgba(130, 26, 2, 0.04);
+}
+.red-recap{
+    background-color: rgba(130, 26, 2, 0.65);
+}
+/*Events CSS*/
+.item-body{
+    position: relative;
+}
+.content-card{
+    display: flex;
+    width: 100%;
+}
+.mode-event{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: rgba(230, 230, 230, 0.7);
+    font-weight: bolder;
+    color: #222;
+    text-transform: uppercase;
+    padding: 2px 5px;
+    width: 30%;
+    height: 23px;
+    text-align: center;
+}
+.taggable{
+    display: flex;
+    width: 100%;
+    margin-top: 7px;
+}
+.groups-link{
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+}
+.groups-link ul{
+    width: 100%;
+    height: 20px;
+}
+
+.groups-link ul li{
+    float: left;
+    width: 33%;
+    height: 100%;
+}
+
+.groups-link ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+li.tags:before{
+    content: '#';
+}
+li.tags{
+    float: left;
+    list-style: none;
+    margin-right: 5px;
+    margin-bottom: 7px;
+    padding: 1px 5px;
+    /*Style for tags*/
+    background-color: rgba(204, 204, 204, .4);
+    border-radius: 15px;
+}
+li.tags:last-child{
+    margin-right: none;
+}
